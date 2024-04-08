@@ -1,0 +1,80 @@
+/* globalStyles.css */
+
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to anchor (link) elements */
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  /* Apply styles to buttons */
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Apply styles to form container */
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Apply styles to form input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to form labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to error messages */
+  .error-message {
+    color: red;
+  }
+  
+  /* Apply styles to password toggle icon */
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-input-wrapper {
+    position: relative;
+  }
+  
+  .password-input {
+    width: calc(100% - 40px);
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
